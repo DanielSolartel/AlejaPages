@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maaf – Portafolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    @keyframes fadeInZoom {
+        0% {
+        opacity: 0;
+        transform: scale(0.95) translateY(20px);
+        }
+        100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+        }
+    }
+
+    .fade-in-zoom {
+        animation: fadeInZoom 0.8s ease forwards;
+    }
+
+  </style>
+</head>
+<body class="m-0 p-0 font-sans ">
+
+  <section class="h-screen w-full bg-black relative bg-cover bg-center" style="background-image: url('images/home/imagenAleja.jpeg');">
+  
+    <div class="absolute inset-0 bg-black opacity-60"></div>
+
+    <div class="relative z-10 flex flex-col justify-center items-center h-full text-white text-center">
+      <h1 class="text-3xl md:text-5xl font-light tracking-widest uppercase fade-in-zoom">Alejandra Figueroa</h1>
+      <nav class="mt-6 space-x-6 text-sm md:text-base tracking-widest fade-in-zoom">
+        <a href="galleries.html" class="hover:underline">GALLERIES</a>
+        <a href="about.html" class="hover:underline">ABOUT</a>
+        <a href="contact.html" class="hover:underline">CONTACT</a>
+      </nav>
+    </div>
+
+  </section>
+
+</body>
+</html>
