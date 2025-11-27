@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto – Alejandra Figueroa</title>
+
+  <!-- Montserrat Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-black text-white py-6 text-center">
+    <h1 class="text-3xl md:text-4xl font-light tracking-widest uppercase">Contacto</h1>
+
+    <nav class="mt-4 space-x-4 text-sm md:text-base tracking-widest">
+      <a href="index.html" class="hover:underline">INICIO</a>
+      <a href="galleries.html" class="hover:underline">GALERÍAS</a>
+      <a href="about.html" class="hover:underline">SOBRE MÍ</a>
+      <a href="contact.html" class="underline">CONTACTO</a>
+    </nav>
+  </header>
+
+  <!-- Contact Content -->
+  <main class="py-20 px-6 md:px-24 max-w-4xl mx-auto space-y-16">
+
+    <!-- Contact Info -->
+    <section class="text-center">
+      <h2 class="text-2xl md:text-3xl font-semibold mb-6 tracking-widest uppercase">Reservas & Consultas</h2>
+      <p class="text-lg leading-8 max-w-2xl mx-auto">
+        Para reservas, colaboraciones, trabajo de modelaje o alianzas con marcas, no dudes en comunicarte.
+        Estoy disponible para proyectos nacionales e internacionales.
+      </p>
+    </section>
+
+    <!-- Pricing Section -->
+    <section>
+      <h2 class="text-2xl md:text-3xl font-semibold mb-6 tracking-widest uppercase text-center">
+        Tarifas de Publicidad
+      </h2>
+
+      <p class="text-lg leading-8 text-justify mb-10">
+        A continuación encontrarás tarifas aproximadas para contenido publicitario y colaboraciones.
+        Los valores pueden variar según la complejidad del proyecto, exclusividad, derechos de uso,
+        requerimientos de producción y la cantidad de entregables.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-10 text-lg">
+
+        <!-- TikTok -->
+        <div class="p-6 border rounded-xl shadow-sm">
+          <h3 class="text-xl font-semibold mb-4 tracking-widest uppercase text-center">TikTok</h3>
+          <ul class="space-y-3">
+            <li><strong>Video patrocinado:</strong> COP 5,000,000 – 9,000,000</li>
+            <li><strong>Demostración de producto:</strong> COP 4,000,000 – 7,000,000</li>
+            <li><strong>Reto / Trend con marca:</strong> COP 6,000,000 – 10,000,000</li>
+          </ul>
+        </div>
+
+        <!-- Instagram -->
+        <div class="p-6 border rounded-xl shadow-sm">
+          <h3 class="text-xl font-semibold mb-4 tracking-widest uppercase text-center">Instagram</h3>
+          <ul class="space-y-3">
+            <li><strong>Publicación en el feed:</strong> COP 5,000,000 – 9,000,000</li>
+            <li><strong>Reel:</strong> COP 7,000,000 – 12,000,000</li>
+            <li><strong>Pack de historias (3):</strong> COP 2,000,000 – 4,000,000</li>
+          </ul>
+        </div>
+
+        <!-- Packages -->
+        <div class="p-6 border rounded-xl shadow-sm md:col-span-2">
+          <h3 class="text-xl font-semibold mb-4 tracking-widest uppercase text-center">Paquetes</h3>
+          <ul class="space-y-3 text-center">
+            <li><strong>Paquete Básico (1 TikTok + Historia):</strong> COP 7,000,000 – 11,000,000</li>
+            <li><strong>Estándar (TikTok + Post en IG + Historias):</strong> COP 10,000,000 – 15,000,000</li>
+            <li><strong>Premium (Reel + TikTok + Historias + Derechos de uso):</strong> COP 15,000,000 – 20,000,000+</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <p class="text-sm text-center mt-8 text-gray-600 italic">
+        *Estos valores son estimaciones basadas en estándares del mercado para influencers con un alcance similar.*
+      </p>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="mt-20">
+      <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-center tracking-widest uppercase">
+        Enviar un Mensaje
+      </h2>
+
+      <form action="mailto:alejandrafigueroamodel@gmail.com" method="POST" enctype="text/plain"
+            class="space-y-6 max-w-2xl mx-auto">
+
+        <div>
+          <label class="block mb-2 font-semibold tracking-widest uppercase">Nombre</label>
+          <input type="text" name="Nombre" required
+                 class="w-full border px-4 py-3 rounded-lg shadow-sm focus:ring focus:ring-black/20" />
+        </div>
+
+        <div>
+          <label class="block mb-2 font-semibold tracking-widest uppercase">Correo Electrónico</label>
+          <input type="email" name="Correo" required
+                 class="w-full border px-4 py-3 rounded-lg shadow-sm focus:ring focus:ring-black/20" />
+        </div>
+
+        <div>
+          <label class="block mb-2 font-semibold tracking-widest uppercase">Mensaje</label>
+          <textarea name="Mensaje" required rows="5"
+                    class="w-full border px-4 py-3 rounded-lg shadow-sm focus:ring focus:ring-black/20"></textarea>
+        </div>
+
+        <button type="submit"
+          class="w-full bg-black text-white py-3 rounded-lg tracking-widest uppercase hover:bg-gray-800 transition">
+          Enviar
+        </button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm bg-black text-gray-400">
+    &copy; 2025 Alejandra Figueroa. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
